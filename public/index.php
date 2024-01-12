@@ -5,4 +5,8 @@ require_once __DIR__ . '/../app/functions/load.php';
 $controller = require_once __DIR__ . '/../app/functions/controllers.php';
 $controller();
 
-require_once __DIR__ . '/../app/views/master.php';
+try {
+    require_once __DIR__ . '/../app/views/master.php';
+} catch (\Throwable $th) {
+    echo $th->getMessage();
+}

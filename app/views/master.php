@@ -14,15 +14,15 @@
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,100' rel='stylesheet' type='text/css'>
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="../../public/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="../../public/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="../../public/assets/css/owl.carousel.css">
-    <link rel="stylesheet" href="../../public/assets/css/style.css">
-    <link rel="stylesheet" href="../../public/assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -38,30 +38,12 @@
         <?php require BASE . '/app/views/partials/header.php' ?>
     </div>
 
-    <div class="site-branding-area">
-        <?php require BASE . '/app/views/partials/branding.php' ?>
-    </div>
 
-    <div class="mainmenu-area">
-        <?php require BASE . '/app/views/partials/menu.php' ?>
-    </div>
-
-    <div class="slider-area">
-        <?php require BASE . '/app/views/partials/slider.php' ?>
-
-    </div>
-
-    <div class="promo-area">
-        <?php require BASE . '/app/views/partials/promo-area.php' ?>
-    </div>
 
     <div class="maincontent-area">
-        <?php require BASE . '/app/views/partials/main-content.php' ?>
+        <?php load() ?>
     </div>
 
-    <div class="brands-area">
-        <?php require BASE . '/app/views/partials/brands.php' ?>
-    </div>
 
     <div class="footer-top-area">
         <?php require BASE . '/app/views/partials/footer-top.php' ?>
@@ -77,18 +59,18 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
     <!-- jQuery sticky menu -->
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.sticky.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/jquery.sticky.js"></script>
 
     <!-- jQuery easing -->
-    <script src="js/jquery.easing.1.3.min.js"></script>
+    <script src="assets/js/jquery.easing.1.3.min.js"></script>
 
     <!-- Main Script -->
-    <script src="js/main.js"></script>
+    <script src="assets/js/main.js"></script>
 
     <!-- Slider -->
-    <script type="text/javascript" src="js/bxslider.min.js"></script>
-    <script type="text/javascript" src="js/script.slider.js"></script>
+    <script type="text/javascript" src="assets/js/bxslider.min.js"></script>
+    <script type="text/javascript" src="assets/js/script.slider.js"></script>
 </body>
 
 </html>
